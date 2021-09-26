@@ -14,6 +14,8 @@
 		257952532700581A00F09FF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 257952522700581A00F09FF7 /* Assets.xcassets */; };
 		257952562700581A00F09FF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 257952542700581A00F09FF7 /* LaunchScreen.storyboard */; };
 		257952592700581A00F09FF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 257952582700581A00F09FF7 /* main.m */; };
+		257952622700594300F09FF7 /* YVLGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 257952602700594300F09FF7 /* YVLGLView.m */; };
+		257952632700594300F09FF7 /* HDRMovie.mov in Resources */ = {isa = PBXBuildFile; fileRef = 257952612700594300F09FF7 /* HDRMovie.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,9 @@
 		257952552700581A00F09FF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		257952572700581A00F09FF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		257952582700581A00F09FF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2579525F2700594300F09FF7 /* YVLGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YVLGLView.h; sourceTree = "<group>"; };
+		257952602700594300F09FF7 /* YVLGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YVLGLView.m; sourceTree = "<group>"; };
+		257952612700594300F09FF7 /* HDRMovie.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = HDRMovie.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +66,9 @@
 		257952452700581800F09FF7 /* HDRiOSTest */ = {
 			isa = PBXGroup;
 			children = (
+				257952612700594300F09FF7 /* HDRMovie.mov */,
+				2579525F2700594300F09FF7 /* YVLGLView.h */,
+				257952602700594300F09FF7 /* YVLGLView.m */,
 				257952462700581800F09FF7 /* AppDelegate.h */,
 				257952472700581800F09FF7 /* AppDelegate.m */,
 				257952492700581800F09FF7 /* SceneDelegate.h */,
@@ -134,6 +142,7 @@
 			files = (
 				257952562700581A00F09FF7 /* LaunchScreen.storyboard in Resources */,
 				257952532700581A00F09FF7 /* Assets.xcassets in Resources */,
+				257952632700594300F09FF7 /* HDRMovie.mov in Resources */,
 				257952512700581800F09FF7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2579524E2700581800F09FF7 /* ViewController.m in Sources */,
+				257952622700594300F09FF7 /* YVLGLView.m in Sources */,
 				257952482700581800F09FF7 /* AppDelegate.m in Sources */,
 				257952592700581A00F09FF7 /* main.m in Sources */,
 				2579524B2700581800F09FF7 /* SceneDelegate.m in Sources */,
@@ -294,6 +304,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PN59K6A8L7;
 				INFOPLIST_FILE = HDRiOSTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,6 +323,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PN59K6A8L7;
 				INFOPLIST_FILE = HDRiOSTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
